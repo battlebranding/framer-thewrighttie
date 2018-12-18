@@ -1,0 +1,46 @@
+/**
+ * Theme Name: The Wright Tie
+ * Template: framer-work
+ */
+
+body {
+    font-family: 'Rokkitt', sans-serif; }
+
+header .menu a,
+footer .menu a {
+    text-transform: uppercase;
+    letter-spacing: .1em; }
+
+h2 {
+    color: #001634;
+    font-family: 'Yellowtail', serif;
+    font-size: 3em; }
+
+.has-primary-background-color,
+a.button,
+button[type="submit"].single_add_to_cart_button {
+    background-color: #0065EF !important;
+    color: #ffffff !important; }
+
+a.button:hover {
+    background-color: #001634; }
+
+.has-primary-background-color * {
+    color: #ffffff; }
+
+section#daniel-wright-intro .button {
+    background-color: #FF0000; }
+section#daniel-wright-intro .button:hover {
+    background-color: #c00; }
+
+footer {
+    background-color: #001634;
+    color: #0065EF; }
+footer * {
+    color: #0065EF; }
+footer .menu a:hover {
+    color: #FF0000; }
+
+#breadcrumb {
+    background-color: #f4f4f4;
+}
