@@ -17,7 +17,7 @@ Framer::_hero( 'standard', [
     'background_img_url'   => get_stylesheet_directory_uri() . '/assets/images/daniel-wright-fixing-bowtie.jpg',
     // 'background_img_url'   => get_stylesheet_directory_uri() . '/assets/images/daniel-wright-popping-bow-tie.jpg',
     'headline'             => "The Wright Tie for Every Occasion",
-    'icon'                 => Framer::generate_logo( get_stylesheet_directory_uri() . '/assets/images/the-wright-tie-logo-icon-only.svg' ),
+    // 'icon'                 => Framer::generate_logo( get_stylesheet_directory_uri() . '/assets/images/the-wright-tie-logo-icon-only.svg' ),
     'subtitle'             => "T-shirts and jeans are really cool, but who said that kids and teens can't dress to impress?",
     'primary_button_label' => 'View Collection',
     'primary_button_link'  => home_url( 'shop' ),
@@ -32,7 +32,7 @@ Framer::_hero( 'standard', [
 
 // Show the product grid.
 Framer::_content( 'product-grid', [
-    'headline'             => 'Choose Your Occassion',
+    'headline'             => 'Choose Your Occasion',
     'subtitle'             => 'Here is more information around this bow tie collection',
     'post_type'            => 'product',
     'result_count'         => 3,
