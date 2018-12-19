@@ -60,7 +60,7 @@ Framer::_call_to_action( 'hero-on-right', [
 
 // Show the footer.
 Framer::_footer( 'standard', [
-    'logo_url' => get_stylesheet_directory_uri() . '/assets/images/the-wright-tie-logo-text-only-blue.svg',
+    'logo_url' => get_stylesheet_directory_uri() . '/assets/images/the-wright-tie-logo-text-only-blue.png',
 ] );
 
 get_footer();
