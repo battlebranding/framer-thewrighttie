@@ -16,7 +16,7 @@ Framer::_header( 'standard', [
 Framer::_hero( 'standard', [
     'background_img_url'   => get_stylesheet_directory_uri() . '/assets/images/daniel-wright-fixing-bowtie.jpg',
     // 'background_img_url'   => get_stylesheet_directory_uri() . '/assets/images/daniel-wright-popping-bow-tie.jpg',
-    'headline'             => "The Wright Tie for Every Occassion",
+    'headline'             => "The Wright Tie for Every Occasion",
     'icon'                 => Framer::generate_logo( get_stylesheet_directory_uri() . '/assets/images/the-wright-tie-logo-icon-only.svg' ),
     'subtitle'             => "T-shirts and jeans are really cool, but who said that kids and teens can't dress to impress?",
     'primary_button_label' => 'View Collection',
